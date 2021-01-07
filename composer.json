@@ -1,0 +1,30 @@
+{
+  "name": "ithrifty/tk",
+  "description": "淘客拓展包",
+  "type": "library",
+  "license": "MIT",
+  "keywords": [
+    "淘宝",
+    "京东",
+    "拼多多",
+    "唯品会"
+  ],
+  "authors": [
+    {
+      "name": "夏雪强",
+      "email": "xuewlcn@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Ithrifty\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=7.0",
+    "hanson/foundation-sdk": "^3.0 || ^4.0",
+    "ext-json": "*",
+    "justmd5/pinduoduo-sdk": "^1.3",
+    "topthink/think-helper": "^3.1"
+  }
+}
